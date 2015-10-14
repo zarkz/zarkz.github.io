@@ -1,4 +1,28 @@
-header {
-	background: url('images/langlab1.png')
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px;
+	padding: 0 10px;
+}
+
+.header {
+	background: url('images/langlab1.png') no-repeat center center fixed
 	background-size: cover;
+	height: 800px;
+	text-align: center;
+}
+.header h1 {
+	color: black;
+	font-size: 80px;
+	line-height: 100px;
+	margin-top: 0;
+	margin bottom: 80px;
+	text-transform: uppercase;
+}
+#slogan {
+	font-style: italic;
 }
