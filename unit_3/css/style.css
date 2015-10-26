@@ -18,9 +18,10 @@ nav li {
 }
 nav ul {
 	background-color: #E85400;
-	width: 375px;
+	width: 358px;
 	padding: 0;
 	margin: auto;
+	font-size: 12px;
 }
 .container {
 	margin: 0 auto;
@@ -37,17 +38,17 @@ header {
 }
 header h1 {
 	color: #ffffff;
-	font-size: 80px;
+	font-size: 90px;
 	position: relative;
 	line-height: 100px;
 	margin-top: 0;
 	margin bottom: 80px;
-	text-transform: uppercase;
+	
+	font-family: 'Oswald', sans-serif;
 }
 #slogan {
-	
-	color: #ffffff;
-	font-size: 20px;
+	color: #fff;
+	font-size: 30px;
 	font-weight: 200;
 }
 
@@ -64,12 +65,14 @@ header h1 {
   transition: background .5s;
 }
 #welcomenote {
-	background-color: rgba(55,116,154,.6);
+	background-color: rgba(55,116,154,.8);
 	text-align: center;
-	color: white;
-	padding: 15px;
-	margin-top: 370px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 1.5em;
+	height: 170px;
 }
+
 section {
 	background-color: white;
 	text-align: center;
@@ -86,15 +89,31 @@ section {
 	background-color: #E85400;
 	margin-bottom: 0px;
 	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-decoration: none;
 }
 .columns p {
 	background-color: orange;
 	color: #ffffff;
+
 }
 .current {
 	background-color: #F4F4F4;
 	text-align: left;
-	padding: 20px;
+	padding: 10px;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 3em;
+}
+#welcomenote {
+	background-color: rgba(55,116,154,.8);
+	text-align: center;
+	color: white;
+	padding: 10px;
+	margin: 3em;
+	/*margin-top: 370px;*/
+	/*width: 1120px;*/
 }
 /*
 #research {
@@ -148,10 +167,3 @@ section {
 	text-align: center;
 	color: white;
 }*/
-#welcomenote {
-	background-color: rgba(55,116,154,.6);
-	text-align: center;
-	color: white;
-	padding: 15px;
-	margin-top: 370px;
-}
