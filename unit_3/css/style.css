@@ -43,7 +43,6 @@ header h1 {
 	line-height: 100px;
 	margin-top: 0;
 	margin bottom: 80px;
-	
 	font-family: 'Oswald', sans-serif;
 }
 #slogan {
@@ -65,12 +64,16 @@ header h1 {
   transition: background .5s;
 }
 #welcomenote {
-	background-color: rgba(55,116,154,.8);
+	/*background-color: rgba(55,116,154,.8);*/
+	background-color: rgba(104,116,127,.8);
 	text-align: center;
 	color: #fff;
 	font-size: 18px;
 	line-height: 1.5em;
 	height: 170px;
+	padding: 10px;
+	margin: 3em;
+	margin-top: 370px;
 }
 
 section {
@@ -92,6 +95,7 @@ section {
 	text-transform: uppercase;
 	font-size: 16px;
 	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
 }
 .columns p {
 	background-color: orange;
@@ -106,15 +110,7 @@ section {
 	line-height: 1.5em;
 	margin: 3em;
 }
-#welcomenote {
-	background-color: rgba(55,116,154,.8);
-	text-align: center;
-	color: white;
-	padding: 10px;
-	margin: 3em;
-	/*margin-top: 370px;*/
-	/*width: 1120px;*/
-}
+
 /*
 #research {
 	background: url(../images/chomsky-office-1.png);
