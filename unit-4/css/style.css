@@ -1,0 +1,165 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+nav a {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+nav ul {
+	background-color: #E85400;
+	width: 358px;
+	padding: 0;
+	margin: auto;
+	font-size: 12px;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1100px;
+	padding: 0 10px;
+}
+
+header {
+	background: url(../images/student_ling_lab.jpg) no-repeat center center;
+	background-size: cover;
+	height: 800px;
+	text-align: center;
+	padding: 50px;
+}
+header h1 {
+	color: #ffffff;
+	font-size: 90px;
+	position: relative;
+	line-height: 100px;
+	margin-top: 0;
+	margin bottom: 80px;
+	font-family: 'Oswald', sans-serif;
+}
+#slogan {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.btn {
+  color: #fff;
+  background: rgba(55,116,154,.6);
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: rgb(55,116,154);
+  cursor: pointer;
+  transition: background .5s;
+}
+#welcomenote {
+	/*background-color: rgba(55,116,154,.8);*/
+	background-color: rgba(104,116,127,.8);
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	line-height: 1.5em;
+	height: 170px;
+	padding: 10px;
+	margin: 3em;
+	margin-top: 370px;
+}
+
+section {
+	background-color: white;
+	text-align: center;
+}
+.columns {
+	background-color: white;
+	color: black;
+	width: 350px;
+	display: inline-block;
+	margin: 20px 20px 20px 5px;
+	text-align: center;
+}
+.columns h3 {
+	background-color: #E85400;
+	margin-bottom: 0px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+}
+.columns p {
+	background-color: orange;
+	color: #ffffff;
+
+}
+.current {
+	background-color: #F4F4F4;
+	text-align: left;
+	padding: 10px;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 3em;
+}
+
+/*
+#research {
+	background: url(../images/chomsky-office-1.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 300px;
+	margin: 20px;
+}
+#research h3 {
+	background-color: orange;
+	color: white;
+	width: 350px;
+}
+#people {
+	background: url(../images/staff-large.png);
+	background-repeat: no-repeat;
+	height: 300px;
+}
+#people h3 {
+	background-color: orange;
+	color: white;
+	width: 350px;
+}
+#opportunities {
+	background: url(../images/lab-test.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 300px;
+}
+#opportunities h3 {
+	background-color: orange;
+	color: white;
+	width: 350px;
+}
+#apply {
+	background: url(../images/typing-4.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 300px;
+}
+#apply h3 {
+	background-color: orange;
+	color: white;
+	width: 350px;
+}
+*/
+	
+/*#welcomenote {
+	background-color: #565656;
+	text-align: center;
+	color: white;
+}*/
