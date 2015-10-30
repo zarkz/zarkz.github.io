@@ -2,10 +2,22 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 }
+header {
+	background-color: #fafafa;
+	padding: 100px 0 0;
+}
+#top-header img {
+	width: 100px;
+}
 #wrapper {
 	background-color: white;
 	width: 1200px;
 	margin: 0 auto;
+}
+nav {
+	background-color: rgba(232,84,0,.6);
+	float: right;
+	
 }
 nav a {
   color: white;
