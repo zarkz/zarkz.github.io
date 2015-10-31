@@ -6,8 +6,18 @@ header {
 	background-color: #fafafa;
 	padding: 100px 0 0;
 }
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "hello";
+  clear: both;
+  height: 0;
+} 
+
 #top-header img {
 	width: 100px;
+	float: left;
 }
 #wrapper {
 	background-color: white;
@@ -100,17 +110,20 @@ section {
 	background-color: white;
 	text-align: center;
 }
-.columns {
+.box {
 	/*background-color: white;*/
 	/*color: black;*/
-	width: 350px;
+	width: 300px;
 	position: relative;
 	display: inline-block;
 	margin: 20px 20px 20px 5px;
 	/*margin: auto;*/
 	/*text-align: center;*/
 }
-.columns h3 {
+.box img {
+	width: 100%;
+}
+.box h3 {
 	position: absolute;
 	top: 70%;
 	left: 0;
@@ -162,7 +175,7 @@ img {
 	text-decoration: none;
 }
 */
-.columns:hover > .overlay {
+.box:hover > .overlay {
 	display:block;
 }
 
