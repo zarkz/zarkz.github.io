@@ -29,34 +29,29 @@ header {
 }
 nav {
 	/*background-color: rgba(232,84,0,.6);*/
-	background-color: #E8C66A;
-	border: 1px black solid;
+	background-color: #fff;
+	/*border: 1px black solid;*/
 	padding: 20px;
 	float: right;
 	
 }
 nav a {
-  color: white;
+  background-color: #fff;
+  color: gray;
   font-size: 12px;
   font-weight: bold;
-  padding: 14px 10px;
+  /*padding: 14px 10px;*/
+  padding: 20px;
   text-transform: uppercase;
   text-decoration: none;
   /*text-align: center;*/
 }
 
-nav li {
-    display: inline;
+a:hover {
+	background-color: rgba(232,84,0,.8);
+	color: #fff;
 }
-nav ul {
-	background-color: #E85400;
-	/*width: 358px;*/
-	padding: 0;
-	/*margin: auto;*/
-	font-size: 12px;
-	display: inline;
 	
-}
 .container {
 	margin: 0 auto;
 	max-width: 1100px;
@@ -64,7 +59,7 @@ nav ul {
 }
 
 header {
-	background: url(../images/student_ling_lab.jpg) no-repeat center center;
+	background: url(../images/student_ling_lab_bw.jpg) no-repeat center center;
 	background-size: cover;
 	height: 800px;
 	text-align: center;
@@ -113,10 +108,9 @@ header h1 {
 }
 
 section {
-	/*background-color: white;*/
-	background-color: #FFE2b8;
+	background-color: white;
 	text-align: center;
-	border: 1px black solid;
+	/*border: 1px black solid;*/
 	padding: 20px;
 }
 .box {
@@ -154,7 +148,7 @@ section {
 	display: none;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(232,84,0,.3);
+	background-color: rgba(232,84,0,.4);
 	top:0;
 	left:0;
 	text-align: center;
@@ -196,8 +190,7 @@ img {
 }
 */
 .current {
-	/*background-color: #F4F4F4;*/
-	background-color: #E89C6C;
+	background-color: #F4F4F4;
 	text-align: left;
 	/*padding: 10px;*/
 	border: 1px black solid;
@@ -206,7 +199,28 @@ img {
 	line-height: 1.5em;
 	margin: 3em;
 }
+.column {
+	float: left;
+	width: 560px;
+	height: 300px;
+	padding: 20px;
+	margin: 0;
+}
+#column1 {
+	background-color: #AC54FF;
+}
+#column2 {
+	background-color: #5485FF;
+}
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
 /*
 #research {
 	background: url(../images/chomsky-office-1.png);
