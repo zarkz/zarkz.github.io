@@ -202,14 +202,14 @@ article {
 	font-size: 18px;
 	line-height: 1.5em;
 	/*margin: 1em;*/
-	width: 97%;
+	
 }
 .column {
 	float: left;
-	max-width: 700px;
+	max-width: 40%;
 	/*height: 300px;*/
 	padding: 20px;
-	margin: 1em;
+	margin: 20px 50px 20px 50px;
 }
 .column h3 {
 	/*background-color: rgba(232,84,0,.8);*/
