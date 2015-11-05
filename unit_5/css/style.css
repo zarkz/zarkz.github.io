@@ -6,7 +6,7 @@ header {
 	/*background-color: #fafafa;
 	padding: 100px 0 0;*/
 	background-color: #FFED74;
-	border: 1px black solid;
+	/*border: 1px black solid;*/
 	padding: 20px;
 }
 .clearfix:after {
@@ -59,7 +59,7 @@ a:hover {
 }
 
 header {
-	background: url(../images/student_ling_lab_bw.jpg) no-repeat center center;
+	background: url(../images/student_ling_lab_bw.png) no-repeat center center;
 	background-size: cover;
 	height: 800px;
 	text-align: center;
@@ -93,11 +93,11 @@ header h1 {
   transition: background .5s;
 }
 #welcomenote {
-	/*background-color: rgba(55,116,154,.8);*/
-	background-color: rgba(104,116,127,.8);
-	text-align: left;
+	background-color: rgba(55,116,154,.6);
+	/*background-color: rgba(68,68,68,.4);*/
+	text-align: center;
 	color: #fff;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.5em;
 	height: 170px;
 	max-width: 100%;
@@ -108,14 +108,12 @@ header h1 {
 }
 
 section {
-	background-color: white;
+	background-color: #fff;
 	text-align: center;
 	/*border: 1px black solid;*/
 	padding: 20px;
 }
 .box {
-	/*background-color: white;*/
-	/*color: black;*/
 	width: 300px;
 	position: relative;
 	display: inline-block;
@@ -137,10 +135,10 @@ section {
 	padding: 5px 0;
 	color: white;
 	letter-spacing: 2px;
-	font-size: 16px;
+	font-size: 20px;
 	text-decoration: none;
-	/*font-family: 'Roboto', sans-serif;*/
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Oswald', sans-serif;*/
 	text-align: center;
 }
 .overlay {
@@ -189,28 +187,35 @@ img {
 
 }
 */
-.current {
-	background-color: #F4F4F4;
+article {
+	background-color: #f8f8f8;
 	text-align: left;
 	/*padding: 10px;*/
-	border: 1px black solid;
+	/*border: 1px black solid;*/
 	padding: 20px;
 	font-size: 18px;
 	line-height: 1.5em;
-	margin: 3em;
+	/*margin: 1em;*/
+	width: 96%;
 }
 .column {
 	float: left;
-	width: 560px;
+	width: 700px;
 	height: 300px;
 	padding: 20px;
-	margin: 0;
+	margin: 1em;
+}
+.column h3 {
+	/*background-color: rgba(232,84,0,.8);*/
+	background-color: rgba(55,116,154,.7);
+	color: #fff;
+	padding-left: .5em;
 }
 #column1 {
-	background-color: #AC54FF;
+	background-color: #f8f8f8
 }
 #column2 {
-	background-color: #5485FF;
+	background-color: #f8f8f8;
 }
 
 .clearfix:after {
@@ -220,6 +225,10 @@ img {
 	content: " ";
 	clear: both;
 	height: 0;
+}
+footer {
+	background color: red;
+	color: white;
 }
 /*
 #research {
