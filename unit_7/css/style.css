@@ -17,14 +17,6 @@ article {
 	/*margin: 1em;*/
 	
 }
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: "hello";
-  clear: both;
-  height: 0;
-} 
 
 /*.wrapper {
 	background-color: white;
@@ -132,20 +124,19 @@ footer {
 	font-weight: 200;
 }
 
-/*.btn {
+.btn {
   color: #fff;
-  background: rgba(55,116,154,.6);
+  
   padding: 10px 40px;
   text-decoration: none;
   border: 2px white solid;
 }
 
 .btn:hover {
-  background: rgb(55,116,154);
+  background: rgba(55,116,154,.6);
   cursor: pointer;
   transition: background .5s;
 }
-*/
 
 .box:hover > .overlay {
 	display:block;
@@ -185,6 +176,15 @@ footer {
 	clear: both;
 	height: 0;
 }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "hello";
+  clear: both;
+  height: 0;
+} 
 
 .bottom {
 	background-color: #5b5b5d;
