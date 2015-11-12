@@ -1,3 +1,4 @@
+* {box-sizing:border-box;}
 body {
 	font-family: 'Open Sans', sans-serif;
 	/*font-family: 'Roboto', sans-serif;*/
@@ -23,7 +24,7 @@ header {
 	width: 100px;
 	float: left;
 }
-#wrapper {
+.wrapper {
 	background-color: white;
 	width: 1200px;
 	margin: 0 auto;
@@ -60,9 +61,9 @@ a:hover {
 }
 
 header {
-	background: url(../images/student_ling_lab_bw.png) no-repeat center center;
+	/*background: url(../images/student_ling_lab_bw.png) no-repeat center center;*/
+	background: url(../images/student_ling_lab.jpg) no-repeat center center;
 	background-size: cover;
-	height: 800px;
 	text-align: center;
 	padding: 50px 0;
 }
@@ -87,42 +88,48 @@ header h1 {
   background: rgba(55,116,154,.6);
   padding: 10px 40px;
   text-decoration: none;
+  border: 2px white solid;
 }
 
 .btn:hover {
   background: rgb(55,116,154);
   cursor: pointer;
-  transition: background .5s;
+/*  transition: background .5s;*/
 }
+
 #welcomenote {
-	background-color: rgba(55,116,154,.6);
+	/*background-color: rgba(55,116,154,.6);*/
 	/*background-color: rgba(68,68,68,.4);*/
+	background-color: rgba(235,234,233,.8);
 	text-align: center;
-	color: #fff;
+	color: #58585b;
 	font-size: 20px;
 	line-height: 1.5em;
-	height: 170px;
 	max-width: 100%;
 	padding-left: 20px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 	/*margin: 3em;*/
-	margin-top: 370px;
+	margin-top: 380px;
 	font-weight: 300;
 }
 
 section {
-	background-color: #E582A2;
+	background-color: #fff;
 	text-align: center;
 	/*border: 1px black solid;*/
 	padding: 20px;
+	margin-bottom: 50px;
 }
+
 .box {
 	width: 300px;
 	position: relative;
 	display: inline-block;
-	margin: 20px 20px 20px 5px;
+	margin: 20px 50px 20px 5px;
 	/*margin: auto;*/
 	/*text-align: center;*/
+	background-color: #fff;
 }
 .box img {
 	width: 100%;
@@ -134,11 +141,12 @@ section {
 	height: 10%;
 	width: 100%;
 	background-color: rgba(232,84,0,.6);
-	margin-bottom: 0px;
-	padding: 5px 0;
-	color: white;
+	margin-bottom: 50px;
+	padding: 0 0 10px 0;
+	color: #fff;
 	letter-spacing: 2px;
 	font-size: 20px;
+	text-transform: uppercase;
 	text-decoration: none;
 	/*font-family: 'Open Sans', sans-serif;*/
 	font-family: 'Roboto', sans-serif;
@@ -160,6 +168,7 @@ section {
 	font-size: 16px;
 	text-decoration: none;
 }
+
 img {
 	display: block;
 	width:100%;
@@ -193,8 +202,8 @@ img {
 }
 */
 article {
-	/*background-color: #f8f8f8;*/
-	background-color: violet;
+	background-color: #f8f8f8;
+	/*background-color: violet;*/
 	text-align: left;
 	/*padding: 10px;*/
 	/*border: 1px black solid;*/
@@ -206,24 +215,17 @@ article {
 }
 .column {
 	float: left;
-	max-width: 40%;
+	width: 40%;
 	/*height: 300px;*/
 	padding: 20px;
-	margin: 20px 50px 20px 50px;
+	margin: 20px 5%;
+	background-color: #fff;
 }
 .column h3 {
 	/*background-color: rgba(232,84,0,.8);*/
 	background-color: rgba(55,116,154,.7);
 	color: #fff;
 	padding-left: .5em;
-}
-#column1 {
-	/*background-color: #f8f8f8;*/
-	background-color: pink;
-}
-#column2 {
-	/*background-color: #f8f8f8;*/
-	background-color: pink;
 }
 
 .clearfix:after {
@@ -235,8 +237,9 @@ article {
 	height: 0;
 }
 footer {
-	background color: red;
-	color: white;
+	color: #f8f8f8;
+    background-color: darkgrey;
+    padding: 40px;
 }
 /*
 #research {
