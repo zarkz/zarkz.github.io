@@ -51,7 +51,7 @@ a:hover {
 
 header {
 	/*background: url(../images/student_ling_lab_bw.png) no-repeat center center;*/
-	background: url(../images/alice-text-bw.png) no-repeat center center;
+	background: url(../images/alice-text-blue.png) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 	/*padding: 50px 0;*/
@@ -107,7 +107,7 @@ footer {
 	margin: 20px 25px;
 	/*margin: auto;*/
 	/*text-align: center;*/
-	background-color: yellow;
+	background-color: #fff;
 }
 .box img {
 	width: 100%;
@@ -123,7 +123,7 @@ footer {
 	padding: 0 0 10px 0;
 	color: #58585b;
 	letter-spacing: 2px;
-	font-size: 20px;
+	font-size: 16px;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
@@ -219,9 +219,11 @@ footer {
 #welcomenote {
 	/*background-color: rgba(55,116,154,.6);*/
 	/*background-color: rgba(68,68,68,.4);*/
-	background-color: rgba(235,234,233,.8);
+	background-color: rgba(52,53,54,.6);
+	/*background-color: rgba(235,234,233,.8);*/
 	text-align: center;
-	color: #58585b;
+	/*color: #58585b;*/
+	color:#fff;
 	font-size: 20px;
 	line-height: 1.5em;
 	max-width: 100%;
