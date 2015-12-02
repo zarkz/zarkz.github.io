@@ -90,6 +90,8 @@ footer {
 	color: #f8f8f8;
     background-color: #A9A9A9;
     padding: 40px;
+    line-height: 1.5em;
+    text-align: center;
 }
 
 
@@ -108,6 +110,7 @@ footer {
 	/*margin: auto;*/
 	/*text-align: center;*/
 	background-color: #fff;
+	margin-top: 50px;
 }
 .box img {
 	width: 100%;
@@ -134,12 +137,13 @@ footer {
 .box p{
 	display: none;
 	position: absolute;
-	top:100px;
+	top:120px;
 	left:0;
 	line-height: 1.5em;
 	padding: 5px;
-	background-color: rgba(0, 0, 0, 0.701961);
-	color: #fff;
+	/*background-color: rgba(0, 0, 0, 0.701961);*/
+	background-color: #fff;
+	color: #000;
 }
 
 .box:hover > p {
@@ -188,6 +192,10 @@ footer {
 	padding-left: .5em;
 	text-transform: uppercase;
 	font-weight: 200;
+	margin-bottom: 10px;
+}
+
+.column p {
 }
 
 .clearfix:after {
@@ -200,10 +208,12 @@ footer {
 }
 
 .bottom {
-	background-color: #5b5b5d;
+	/*background-color: #5b5b5d;*/
 	color: #8e8e8e;
 	width: 100%;
-	padding: 20px;
+	margin-top: 1em;
+	text-align: center;
+
 }
 
 /* ----------------------------------------------------- index ID's*/
