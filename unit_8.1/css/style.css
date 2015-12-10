@@ -1,0 +1,399 @@
+* {
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-weight: 100;
+	font-size: 16px;
+}
+
+nav {
+	/*background-color: rgba(232,84,0,.6);*/
+	background-color: #fff;
+	/*border: 1px black solid;*/
+	padding: 20px;
+	float: right;
+	
+}
+
+nav a {
+  background-color: #fff;
+  color: gray;
+  font-size: 12px;
+  font-weight: bold;
+  /*padding: 14px 10px;*/
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  /*text-align: center;*/
+}
+
+a:hover {
+	background-color: rgba(232,84,0,.8);
+	color: #fff;
+}
+
+header {
+	/*background-color: #fafafa;
+	padding: 100px 0 0;*/
+	background-color: #FFED74;
+	/*border: 1px black solid;*/
+	padding: 20px;
+}
+
+header {
+	/*background: url(../images/student_ling_lab_bw.png) no-repeat center center;*/
+	background: url(../images/student_ling_lab.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	padding: 50px 0;
+}
+
+header h1 {
+	color: #ffffff;
+	font-size: 90px;
+	position: relative;
+	line-height: 100px;
+	margin-top: 0;
+	margin bottom: 80px;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+h2 {
+	float: left;
+	color: blue;
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	width:100%;
+}
+
+label {
+	display: none;
+}
+
+section {
+	background-color: #fff;
+	text-align: center;
+	/*border: 1px black solid;*/
+	padding: 5%;
+	margin-bottom: 50px;
+}
+
+footer {
+	color: #f8f8f8;
+    background-color: #A9A9A9;
+    padding: 40px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.bottom {
+	color: #8e8e8e;
+	width: 100%;
+	margin-top: 1em;
+	text-align: center;
+}
+
+.btn {
+  color: #fff;
+  background: rgba(55,116,154,.6);
+  padding: 10px 40px;
+  text-decoration: none;
+  border: 2px white solid;
+}
+
+.btn:hover {
+  background: rgb(55,116,154);
+  cursor: pointer;
+/*  transition: background .5s;*/
+}
+
+.box:hover > .overlay {
+	display:block;
+}
+
+.box {
+	width: 300px;
+	position: relative;
+	display: inline-block;
+	margin: 20px 50px 20px 5px;
+	/*margin: auto;*/
+	/*text-align: center;*/
+	background-color: #fff;
+}
+.box img {
+	width: 100%;
+}
+.box h3 {
+	position: absolute;
+	top: 70%;
+	left: 0;
+	height: 10%;
+	width: 100%;
+	background-color: rgba(232,84,0,.6);
+	margin-bottom: 50px;
+	padding: 0 0 10px 0;
+	color: #fff;
+	letter-spacing: 2px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Oswald', sans-serif;*/
+	text-align: center;
+}
+
+.column {
+	float: left;
+	width: 40%;
+	/*height: 300px;*/
+	padding: 20px;
+	margin: 20px 5%;
+	background-color: #fff;
+}
+.column h3 {
+	/*background-color: rgba(232,84,0,.8);*/
+	background-color: rgba(55,116,154,.7);
+	color: #fff;
+	padding-left: .5em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "hello";
+  clear: both;
+  height: 0;
+} 
+
+.container {
+	margin: 0 auto;
+	max-width: 1100px;
+	padding: 0 10px;
+}
+
+.overlay {
+	position: absolute;
+	display: none;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(232,84,0,.4);
+	top:0;
+	left:0;
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Oswald', sans-serif;*/
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.wrapper {
+	background-color: white;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+
+#slogan {
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 200;
+}
+
+#top-header img {
+	width: 100px;
+	float: left;
+}
+
+#toggle {
+	display: none;
+}
+
+#welcomenote {
+	/*background-color: rgba(55,116,154,.6);*/
+	/*background-color: rgba(68,68,68,.4);*/
+	background-color: rgba(235,234,233,.8);
+	text-align: center;
+	color: #58585b;
+	font-size: 20px;
+	line-height: 1.5em;
+	max-width: 100%;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*margin: 3em;*/
+	margin-top: 380px;
+	font-weight: 300;
+}
+
+/* -------------------------------------------------------- media queries */
+
+@media screen and (max-width: 1611px){
+	section {
+		max-width: 1042px;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width:800px){
+
+	nav {
+		float:none;
+		width: 600px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	nav a {
+		display: inline;
+		
+	}
+
+	label {
+		text-align: center;
+		background-color: #fff;
+	}
+}
+
+
+@media screen and (max-width: 660px){
+	
+	label {
+		display: block;
+		text-align: right;
+		margin: 20px 5px 0;
+		color: rgb(232,84,0);
+		font-size: 1em;
+		text-decoration: none;	
+	}
+
+	nav {
+		display: none;
+	}
+
+	nav a {
+		display: block;
+		text-align: center;
+	}
+
+	nav a:active {
+		background-color: yellow
+	}
+
+	#toggle:checked + nav {
+		display: block;
+	}
+}
+
+
+/*
+.overlay {
+	display: none;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(232,84,0,.6);
+	position: absolute;
+	top:0;
+	left:0;
+	text-align: center;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+}
+*/
+
+/*.columns p {
+	background-color: orange;
+	color: #ffffff;
+
+}
+*/
+
+
+
+/*
+
+article {
+	background-color: #f8f8f8;
+	/*background-color: violet;*/
+	text-align: left;
+	/*padding: 10px;*/
+	/*border: 1px black solid;*/
+	padding: 20px;
+	font-size: 18px;
+	line-height: 1.5em;
+	/*margin: 1em;*/
+}
+/*
+#research {
+	background: url(../images/chomsky-office-1.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 300px;
+	margin: 20px;
+}
+#research h3 {
+	background-color: orange;
+	color: white;
+	width: 350px;
+}
+#people {
+	background: url(../images/staff-large.png);
+	background-repeat: no-repeat;
+	height: 300px;
+}
+#people h3 {
+	background-color: orange;
+	color: white;
+	width: 350px;
+}
+#opportunities {
+	background: url(../images/lab-test.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 300px;
+}
+#opportunities h3 {
+	background-color: orange;
+	color: white;
+	width: 350px;
+}
+#apply {
+	background: url(../images/typing-4.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 300px;
+}
+#apply h3 {
+	background-color: orange;
+	color: white;
+	width: 350px;
+}
+*/
+	
+/*#welcomenote {
+	background-color: #565656;
+	text-align: center;
+	color: white;
+}*/
