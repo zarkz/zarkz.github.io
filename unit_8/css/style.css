@@ -202,9 +202,9 @@ footer {
 
 .column {
 	float: left;
-	width: 40%;
+	width: 30%;
 	/*height: 300px;*/
-	padding: 20px;
+	padding: 10px;
 	margin: 20px 5%;
 	/*background-color: #fff;*/
 	background-color: #EFEFEF;

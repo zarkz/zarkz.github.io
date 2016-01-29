@@ -7,15 +7,16 @@ body {
 }
 
 article {
-	background-color: #EFEFEF;
-	/*background-color: violet;*/
+	/*background-color: #EFEFEF;*/
+	background-color: purple;
 	text-align: left;
 	/*padding: 10px;*/
 	/*border: 1px black solid;*/
 	padding: 20px;
+	padding-top: 0;
 	font-size: 18px;
 	line-height: 1.5em;
-	/*margin: 1em;*/
+	margin: 1em;
 	
 }
 
@@ -31,23 +32,25 @@ nav {
 	/*border: 1px black solid;*/
 	padding: 20px;
 	float: right;
-	
+	opacity: 0.93;
+
 }
 nav a {
   background-color: #fff;
-  color: gray;
+  color: #111;
   font-size: 1em;
   font-weight: bold;
   /*padding: 14px 10px;*/
   padding: 20px;
-  text-transform: uppercase;
+  text-transform: none;
   text-decoration: none;
   /*text-align: center;*/
 }
 
 a:hover {
-	background-color: rgba(232,84,0,.8);
-	color: #fff;
+	/*background-color: rgba(232,84,0,.8);
+	color: #fff;*/
+	color: orange;
 }
 
 header {
@@ -58,6 +61,39 @@ header {
 	text-align: center;
 	/*padding: 50px 0;*/
 }
+
+/*.jumbotron {
+	background: url(../images/eyetrack.png) no-repeat center center;
+	background-size: cover;
+	height: 600px;
+	padding-top: 25px;
+	margin-bottom: 0;
+}*/
+
+.title {
+	background-color: rgba(48,59,69,.6);
+	margin-top: 85px;
+}
+
+h1 {
+	color: orange;
+	font-size: 4em;
+	line-height: 1em;
+	padding-left: 35px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	text-align: left;
+	font-weight: 200;
+}
+
+#slogan {
+	font-size: 1.5em;
+	padding-bottom: 20px;
+	color: #fff;
+	line-height: 1.2em;
+	padding-left: 35px;
+}
+
 header h1 {
 	color: #ffffff;
 	font-size: 70px;
@@ -86,12 +122,12 @@ label {
 }
 
 section {
-	background-color: #fff;
+	background-color: red;
 	text-align: center;
 	/*border: 1px black solid;*/
 	padding: 0 0 20px 0;
 	/*margin-bottom: 50px;*/
-	width: 72%;
+	width: 93%;
 	/*width: 550px;*/
 	margin: 10px auto;
 }
@@ -102,6 +138,7 @@ footer {
     padding: 40px;
     line-height: 1.5em;
     text-align: center;
+    width: 100%;
 }
 
 
@@ -114,14 +151,16 @@ footer {
 
 .box {
 	/*width: 132px;*/
-	width: 28%;
-	min-width: 132px;
+	width: 100%;
+	/*width: 40%;*/
+	min-width: 110px;
+	/*min-width: 132px;*/
 	position: relative;
 	float: left;
-	margin: 15px;
+	margin: 10px;
 	/*margin: 20px 25px;*/
 	/*text-align: center;*/
-	background-color: #fff;
+	background-color: black;
 	margin-top: 25px;
 }
 
@@ -131,10 +170,11 @@ footer {
 
 
 .box img {
-	width: 40%;
-	min-width: 126px;
-	margin: auto;
-	padding-top: 10%;
+	width: 95%;
+	min-width: 100px;
+	margin: 0 auto;
+	padding: 1%;
+	background-color: green;
 }
 .box h3 {
 	/*position: absolute;*/
@@ -202,25 +242,45 @@ footer {
 
 .column {
 	float: left;
-	width: 40%;
+	width: 30%;
 	/*height: 300px;*/
-	padding: 20px;
-	margin: 20px 5%;
-	/*background-color: #fff;*/
-	background-color: #EFEFEF;
+	padding: 10px;
+	/*margin: 10px 2%;*/
+	margin: 22px;
+	background-color: yellow;
+	/*background-color: #EFEFEF;*/
 }
 .column h3 {
 	/*background-color: rgba(232,84,0,.8);*/
-	background-color: rgba(55,116,154,.7);
-	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	padding-left: .5em;
-	text-transform: uppercase;
-	font-weight: 200;
-	margin-bottom: 10px;
+	/*background-color: rgba(55,116,154,.7);*/
+	color: orange;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-size: 1.5em;
+	/*padding-left: .5em;*/
+	text-transform: none;
+	font-weight: 400;
+	margin-bottom: 25px;
+
+}
+.column h4 {
+	font-weight: 300;
 }
 
 .column p {
+	font-size: .8em;
+	padding-bottom: 10px;
+}
+
+.column a {
+	text-decoration: none;
+}
+
+.intro-image {
+	width: 92%;
+	background-color: yellow;
+	padding: 20px;
+	padding-top: 0;
+	margin: 0 auto;
 }
 
 .clearfix:after {
@@ -250,38 +310,20 @@ footer {
 
 }
 
-/* ------------------------------------------------------ steve */
-/*.topnav {
-	float: right;
-	font-weight: 500;
-	font-size: 0.8em;
-	letter-spacing: 1px;
-	padding: 20px 20px 23px 20px;
+.wrapper {
+	width: 100%;
+	background-color: #fff;
+	/*background-color: green;*/
+	margin: 0px auto;
 }
 
-#topmenu {
-	margin-right: 40px;
-}
-
-#topname {
-	float: left;
-	padding: 14px 0 14px 60px;
-	width: 300px;
-}
-
-#stevelee {
-	font-size: 1.5em;
-	font-weight: 500;
-	letter-spacing: 0.5em;
-	padding-right: 14px;
-}
-
-#uxdesign {
-	font-weight: 100;
-	font-size: 1.5em;
-}*/
 
 /* ----------------------------------------------------- index ID's*/
+
+#intro-image {
+	float: left;
+	margin-right: 10px;
+}
 
 #top-header{
 	padding:10px 0;
@@ -308,34 +350,28 @@ footer {
 #welcomenote {
 	/*background-color: rgba(55,116,154,.6);*/
 	/*background-color: rgba(68,68,68,.4);*/
-	background-color: rgba(52,53,54,.6);
+	
 	/*background-color: rgba(235,234,233,.8);*/
-	text-align: center;
+	text-align: left;
 	/*color: #58585b;*/
-	color:#fff;
+	color:#111;
 	font-size: 20px;
 	line-height: 1.5em;
 	max-width: 100%;
-	padding-left: 20px;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 	/*margin: 3em;*/
-	margin-top: 380px;
 	font-weight: 300;
+}
+
+#welcomenote h3 {
+	font-size: 1.5em;
+	padding-bottom: 20px;
 }
 
 /* ----------------------------------------------------- media queries */
 
 @media screen and (max-width:780px){
-
-	#ucla {
-		float: none;
-		margin: auto;
-		height: 20px;
-		width: 100%;
-		padding: 10px 0 14px 0;
-		font-size: 1em;
-	}
 
 	div {
 		display: block;
@@ -357,42 +393,21 @@ footer {
 	}
 
 	header {
-	background: url(../images/alice-text-blue.png) no-repeat;
+	/*background: url(../images/alice-text-blue.png) no-repeat;*/
 	text-align: center;
 	max-width: 780px;
 	/*padding: 50px 0;*/
 	}
 
-	#welcomenote {
-	/*background-color: rgba(55,116,154,.6);*/
-	/*background-color: rgba(68,68,68,.4);*/
-	background-color: rgba(52,53,54,.6);
-	/*background-color: rgba(235,234,233,.8);*/
-	text-align: center;
-	/*color: #58585b;*/
-	color:#fff;
-	font-size: 1em;
-	line-height: 1.5em;
-	width: 100%;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	font-weight: 300;
-	text-align: left;
-	margin-top: 180px;
-
-	}
-
-	#welcomenote h3 {
-		text-align: center;
-		margin-bottom: 20px;
+	.jumbotron {
+	/*background: url(../images/alice-text-blue.png) no-repeat;
+	max-width: 780px;*/
 	}
 
 	.box img {
 	width: 40%;
 	min-width: 126px;
-	margin: auto;
+	margin: 0 auto;
 	padding-top: 10%;
 	}
 
@@ -408,9 +423,6 @@ footer {
 	background-color: #fff;
 	margin-top: 25px;
 	}
-}
-
-@media screen and (max-width:675px){
 
 	#ucla {
 		float: none;
@@ -420,6 +432,25 @@ footer {
 		padding: 10px 0 14px 0;
 		font-size: 1em;
 	}
+
+	
+	
+	
+
+	#welcomenote {
+		text-align: left;
+		font-size: 1em;
+		line-height: 1.5em;
+
+	}
+
+	#welcomenote h3 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width:675px){
 
 	div {
 		display: block;
@@ -441,10 +472,46 @@ footer {
 	}
 
 	header {
-	background: url(../images/alice-text-blue.png) no-repeat;
+	/*background: url(../images/alice-text-blue.png) no-repeat;*/
 	text-align: center;
 	max-width: 780px;
 	/*padding: 50px 0;*/
+	}
+
+	/*.jumbotron {
+		background: url(../images/alice-text-blue.png) no-repeat;
+		max-width: 100%;
+		text-align: left;
+		height: 200px;
+	}*/
+
+	.box img {
+	width: 40%;
+	min-width: 126px;
+	margin: auto;
+	padding-top: 10%;
+	}
+
+	.box {
+	/*width: 132px;*/
+	width: 15%;
+	min-width: 132px;
+	position: relative;
+	float: left;
+	margin: 10px;
+	/*margin: 20px 25px;*/
+	/*text-align: center;*/
+	background-color: #fff;
+	margin-top: 25px;
+	}
+
+	#ucla {
+		float: none;
+		margin: auto;
+		height: 20px;
+		width: 100%;
+		padding: 10px 0 14px 0;
+		font-size: 1em;
 	}
 
 	#welcomenote {
@@ -471,26 +538,6 @@ footer {
 	#welcomenote h3 {
 		text-align: center;
 		margin-bottom: 20px;
-	}
-
-	.box img {
-	width: 40%;
-	min-width: 126px;
-	margin: auto;
-	padding-top: 10%;
-	}
-
-	.box {
-	/*width: 132px;*/
-	width: 15%;
-	min-width: 132px;
-	position: relative;
-	float: left;
-	margin: 10px;
-	/*margin: 20px 25px;*/
-	/*text-align: center;*/
-	background-color: #fff;
-	margin-top: 25px;
 	}
 }
 
@@ -522,15 +569,6 @@ footer {
 
 @media screen and (max-width:643px){
 
-	#ucla {
-		float: none;
-		margin: auto;
-		height: 20px;
-		width: 100%;
-		padding: 10px 0 14px 0;
-		font-size: 1em;
-	}
-
 	div {
 		display: block;
 	}
@@ -557,6 +595,35 @@ footer {
 	/*padding: 50px 0;*/
 	}
 
+	.box img {
+	width: 40%;
+	min-width: 126px;
+	margin: auto;
+	padding-top: 10%;
+	}
+
+	.box {
+	/*width: 132px;*/
+	width: 100%;
+	min-width: 132px;
+	position: relative;
+	float: left;
+	margin: 15px;
+	/*margin: 20px 25px;*/
+	/*text-align: center;*/
+	background-color: #fff;
+	margin-top: 25px;
+	}
+
+	#ucla {
+		float: none;
+		margin: auto;
+		height: 20px;
+		width: 100%;
+		padding: 10px 0 14px 0;
+		font-size: 1em;
+	}
+
 	#welcomenote {
 	/*background-color: rgba(55,116,154,.6);*/
 	/*background-color: rgba(68,68,68,.4);*/
@@ -581,30 +648,6 @@ footer {
 	#welcomenote h3 {
 		text-align: center;
 		margin-bottom: 20px;
-	}
-
-	.box img {
-	width: 40%;
-	min-width: 126px;
-	margin: auto;
-	padding-top: 10%;
-	}
-
-	.box {
-	/*width: 132px;*/
-	width: 100%;
-	min-width: 132px;
-	position: relative;
-	float: left;
-	margin: 15px;
-	/*margin: 20px 25px;*/
-	/*text-align: center;*/
-	background-color: #fff;
-	margin-top: 25px;
-	}
-
-	.box p {
-		display: none;
 	}
 }
 
